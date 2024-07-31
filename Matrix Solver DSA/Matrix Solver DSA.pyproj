@@ -1,0 +1,65 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c537c0de-f8ef-4671-a59c-fde7e8d5a3b8</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Matrix_Solver_DSA.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Matrix Solver DSA</Name>
+    <RootNamespace>Matrix Solver DSA</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Addition_Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Determinanat_Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Determinant-Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Division_Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Inverse_Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Matrix_Initialization.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Matrix_Solver_DSA.py" />
+    <Compile Include="Multiplication_Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Subtraction_Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transpose_Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

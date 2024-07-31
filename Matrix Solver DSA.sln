@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Matrix Solver DSA", "Matrix Solver DSA\Matrix Solver DSA.pyproj", "{C537C0DE-F8EF-4671-A59C-FDE7E8D5A3B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C537C0DE-F8EF-4671-A59C-FDE7E8D5A3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C537C0DE-F8EF-4671-A59C-FDE7E8D5A3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52463E4D-A7AA-4911-BFB2-B77A072E87CA}
+	EndGlobalSection
+EndGlobal
